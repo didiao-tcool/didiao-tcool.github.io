@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* flex布局-begin */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(../img/background.png);
+    font-family: Tahoma, "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+
+head,
+.foot {
+    /* 我们希望 head,foot 采用固定的高度，只占用必须的空间 */
+    flex: 0 0 auto;
+}
+
+.body {
+    /* 将 flex-grow 设置为1，该元素会占用全部可使用空间 
+       而其他元素该属性值为0，因此不会得到多余的空间*/
+    flex: 1 0 auto;
+    background-size: 800px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* flex布局-end */
+
+/* head顶部样式-begin */
+.head {
+    background-color: #fcfcfc;
+    border-bottom: 3px solid cadetblue;
+    margin-bottom: 40px;
+}
+
+.forehead {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+/* logo样式-begin */
+.logo {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo img {
+    float: left;
+    width: 90px;
+}
+
+.logo .introduce {
+    float: left;
+    margin-left: 10px;
+}
+
+.logo h1 {
+    margin-top: 10px;
+    color: cadetblue;
+}
+
+.logo p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: gray;
+}
+
+/* logo样式-end */
+
+
+
+/* 导航栏样式-begin */
+.navigation {
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navigation ul li {
+    float: left;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: inline-block;
+    color: #4c4c4c;
+    padding: 0px 13px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navigation a:hover {
+    color: cadetblue;
+    border-bottom: 3px solid cadetblue;
+}
+
+/* 导航栏样式-end */
+
+/* head顶部样式-end */
+
+/* body样式-begin */
+.body h1,
+h2,
+h3,
+strong {
+    color: rgb(88, 144, 144);
+}
+
+p {
+    text-indent: 2em;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+ol {
+    margin-left: 50px;
+    line-height: 1.5;
+}
+
+/* body样式-end */
+
+/* 页脚样式-begin */
+.foot {
+    height: 150px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.foot p {
+    margin: 6px 0;
+}
+
+/* 页脚样式-end */

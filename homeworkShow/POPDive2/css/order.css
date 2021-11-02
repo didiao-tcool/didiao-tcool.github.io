@@ -1,0 +1,123 @@
+/* 表单样式-begin */
+
+.order {
+    margin: 50px auto 0;
+    max-width: 580px;
+    background: #FFF;
+    padding: 30px 30px 20px 30px;
+    box-shadow: 0px 0px 10px #b0b0b0;
+    font-size: 13px;
+    color: #666;
+    border-radius: 10px;
+}
+
+.order h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #F5F5F5;
+    margin: -10px -30px 10px -30px;
+    color: cadetblue;
+    font-weight: 600;
+}
+
+.order h1>span {
+    display: block;
+    font-size: 11px;
+    color: #C4C2C2;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.order>div {
+    display: block;
+    margin: 0px 0px 5px;
+}
+
+.order div>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #969696;
+}
+
+.order input[type="text"],
+.order input[type="email"],
+.order textarea,
+.order select {
+
+    color: #555;
+    width: 70%;
+    padding: 3px 0px 3px 5px;
+    margin: 2px 6px 16px 0px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height: 15px;
+}
+
+.order textarea {
+    height: 80px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+
+.order select {
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(#FBFBFB, #E9E9E9, #FBFBFB);
+    border: 1px solid #e5e5e5;
+}
+
+/* 特殊调整-begin */
+.order .special1 {
+    height: 50px;
+}
+
+.order .special1>input {
+    margin-top: 7px;
+}
+
+.order .special2,
+.order .special3 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #969696;
+}
+
+.order .special2>span {
+    width: 50%;
+}
+
+.order .special2>div {
+    margin-top: 10px;
+}
+
+.order .special2 label,
+.order .special3 label {
+    margin-left: 3px;
+}
+
+.order .special3 .t1 {
+    margin-left: 10px;
+}
+
+.order .special3 .t1 input {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(180, 230, 230), rgb(130, 210, 210), rgb(180, 230, 230));
+    border: 1px solid #e5e5e5;
+    margin: 0 5px;
+}
+
+.order .special3 .t2 {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* 特殊调整-end */
+
+/* 表单样式-end */
